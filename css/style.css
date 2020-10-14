@@ -69,9 +69,15 @@ color: rgb(0, 0, 0);
 }
 
 .bg-primary {
-    background: rgb(0, 0, 0);
-    color: #f7c08a;
+    background: #f7c08a;
+    color: #333;
 }
+
+
+.clr {
+    clear: both;
+}
+ 
 /* Navbar */
 
 #navbar {
@@ -145,7 +151,7 @@ h1 {
 #home-info .info-img {
     float: left;
     width: 50%;
-    background: url('../img/item_11.jpg.jpg') no-repeat;
+    background: url('../img/item_17.jpg.jpg') no-repeat;
     min-height: 100%;
 
 }
@@ -161,4 +167,18 @@ h1 {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
